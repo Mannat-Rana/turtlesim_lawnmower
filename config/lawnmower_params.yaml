@@ -1,0 +1,14 @@
+turtle_name         : 'My_Turtle'
+vel_topic           : '/cmd_vel'
+pos_topic           : '/pose'
+linear_deadband     : 0.005
+angular_deadband    : 0.0005
+start_point         : [2, 2, 40]
+height              : 4
+width               : 7
+linear_kp           : 1
+angular_kp          : 10
+window_max          : 11
+window_min          : 0
+max_lin_vel         : 1000
+pose_hz             : 60

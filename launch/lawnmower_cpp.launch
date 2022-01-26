@@ -1,0 +1,16 @@
+<!--
+# Created By  : Mannat Rana (mrana8@asu.edu)
+# Created Date: 01/20/22
+# version ='2.0'
+""" Assignment 1 for ASU Course SES 598: Autonomous Exploration Systems
+         Taught by Professor Jnaneshwar Das during Spring 2022"""
+ -->
+<launch>
+    <env name="ROSCONSOLE_CONFIG_FILE" value="$(find turtlesim_lawnmower)/config/logging.conf"/>
+    <rosparam command="load" file="$(find turtlesim_lawnmower)/config/lawnmower_params.yaml" />
+    <node name="turtlesim" pkg="turtlesim" type="turtlesim_node"/>
+    <node name="Lawnmower_Node" 
+          pkg="turtlesim_lawnmower" 
+          type="Lawnmower_Node"
+          output="screen"/>
+</launch>

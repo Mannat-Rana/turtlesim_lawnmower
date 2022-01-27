@@ -15,6 +15,7 @@ The goal of this application is to develop a lawnmower pattern with the Turtlesi
 cd ~/catkin_ws/src
 git clone https://github.com/Mannat-Rana/turtlesim_lawnmower.git
 catkin build turtlesim_lawnmower
+cd ~/catkwin_ws
 source devel/setup.bash
 ```
 ## To Run

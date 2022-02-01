@@ -4,7 +4,7 @@
 The goal of this application is to develop a lawnmower pattern with the Turtlesim Simulator that takes a starting (x, y) coordinate, a height, and a width for the pattern. This application is developed as part of the first homework assignment in the course SES 598: Autonomous Exploration Systems at Arizona State University.
 
 ## Demonstration
-Starting location (x, y), height, width, and speed limits for the turtlesim can be adjusted in the [config.yaml](config.yaml) file.
+Starting location (x, y), height, width, and speed limits for the turtlesim can be adjusted in the [lawnmower_params.yaml](https://github.com/Mannat-Rana/turtlesim_lawnmower/blob/main/config/lawnmower_params.yaml) file.
 
 ### C++ Implementation
 ![cpp_lawnmower_demo](https://user-images.githubusercontent.com/82643627/151105107-15c2c6ee-359a-4eed-9277-90da1dec74b0.gif)
